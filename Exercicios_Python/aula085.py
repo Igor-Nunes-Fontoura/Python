@@ -1,0 +1,6 @@
+s1 = set()
+s1.add('Igor')
+s1.update((1, 1, 2, 3, 4))
+# s1.clear()
+s1.discard('Igor')
+print(s1)
